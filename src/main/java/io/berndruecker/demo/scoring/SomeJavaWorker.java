@@ -12,7 +12,7 @@ import java.util.Map;
 @Component
 public class SomeJavaWorker {
 
-    private static final String[] RISK_OPTIONS = {"no risk", "medium", "high risk"};
+    private static final String[] RISK_OPTIONS = {"low", "medium", "high"};
     private static int nextOption = 0;
 
     private static Logger logger = LoggerFactory.getLogger(SomeJavaWorker.class);
